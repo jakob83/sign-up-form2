@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up rn</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="div-background">
+        <div></div>
+        <h1>Sign up to our FAKE service</h1>
+    </div>
+
+    <h1>Sign up to the newest fake service</h1>
+    </div>
+    <form action="no/server/lol" method="post" id="form">
+        <fieldset class="personal-info">
+            <legend>Personal information</legend>
+            <div>
+                <input type="text" id="fullName" name="full-name" placeholder="Full Name" class="inp">
+                <output id="outputFullName"></output>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email" class="inp">
+                <output id="outputEmail"></output>
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="Password" class="inp">
+                <output id="outputPassword"></output>
+            </div>
+            <div>
+                <input type="password" id="password2" name="password" placeholder="Repeat Password" class="inp">
+                <output id="outputPassword2"></output>
+            </div>
+            <div>
+                <input type="range" id="age" value="18" min="0" max="99">
+                <label for="age">Age:</label>
+                <output for="age" class="output-age"></output>
+                <output id="outputAge"></output>
+            </div>
+        </fieldset>
+        <fieldset class="find-us">
+            <legend>How did you find us?</legend>
+            <div>
+                <label for="friend">Through friend</label>
+                <input type="checkbox" value="Friend" name="find" id="friend">
+            </div>
+            <div>
+                <label for="flyer">Through flyer</label>
+                <input type="checkbox" value="Flyer" name="find" id="flyer">
+            </div>
+            <div>
+                <label for="radio">Through radio</label>
+                <input type="checkbox" value="Radio" name="find" id="radio">
+            </div>
+            <div>
+                <label for="tv">Through television</label>
+                <input type="checkbox" value="TV" name="find" id="tv">
+            </div>
+            <div>
+                <label for="other">Through other</label>
+                <input type="checkbox" value="other" name="find" id="other">
+            </div>
+        </fieldset>
+        <fieldset class="submit-fieldset"><button type="submit" id="submitBtn">sign up</button></fieldset>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
